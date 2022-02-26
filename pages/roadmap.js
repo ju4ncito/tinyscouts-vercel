@@ -23,7 +23,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I'm <b>Juan</b>. I'm a software engineer student, currently
+          Heaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaalo, I'm <b>Juan</b>. I'm a software engineer student, currently
           working as a <b>blockchain developer</b>. You can contact me on{" "}
           <a href="https://twitter.com/0xJu4ncito">my Twitter</a>.
         </p>
@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-            <Link href={`/roadmap`}>
+            <Link href={`/posts/${id}`}>
               <a>{title}</a>
             </Link>
             <br />
