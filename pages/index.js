@@ -9,9 +9,7 @@ export default function Home() {
         <title>Tiny Scouts NFT</title>
       </Head>
       <Navbar/>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+
     </div>
   );
 }
