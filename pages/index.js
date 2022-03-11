@@ -1,21 +1,37 @@
-import Head from "next/head";
-import Link from "next/link";
+import Head from 'next/head';
 
+import Navbar from '../components/es/navigation/Navbar';
+import Footer from '../components/es/navigation/Footer';
 
-export default function Home() {
+import HeroHome from '../components/es/HeroHome';
+import NFT from '../components/es/NFT';
+import Feature from '../components/es/Feature';
+
+import AgroHome from '../components/es/AgroHome';
+import BusinessHome from '../components/es/BusinessHome';
+
+export default function Page() {
   return (
-    <div className="bg-green-200 h-screen">
+    <>
       <Head>
         <title>Utopian Lemurs</title>
       </Head>
-
-
-      <section className="">
-        <p>
-          Welcome to the Utopian Lemurs Official Website.
-        </p>
-      </section>
-
-    </div>
+      <header>
+        <Navbar />
+      </header>
+      <main className='overflow-hidden'>
+        <div className='hidden sm:block mt-20' />
+        <HeroHome />
+        <Feature />
+        <NFT />
+        <AgroHome />
+        {/* <AgroDescription /> */}
+        <BusinessHome />
+        {/* <BusinessDescription /> */}
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   );
 }
