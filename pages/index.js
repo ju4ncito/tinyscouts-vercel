@@ -1,49 +1,37 @@
-import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
-import Link from 'next/link'
-import Date from '../components/date'
+import Head from 'next/head';
 
-import { getSortedPostsData } from "../lib/posts";
+import Navbar from '../components/es/navigation/Navbar';
+import Footer from '../components/es/navigation/Footer';
 
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
-  return {
-    props: {
-      allPostsData,
-    },
-  };
-}
+import HeroHome from '../components/es/HeroHome';
+import NFT from '../components/es/NFT';
+import Feature from '../components/es/Feature';
 
-export default function Home({ allPostsData }) {
+import AgroHome from '../components/es/AgroHome';
+import BusinessHome from '../components/es/BusinessHome';
+
+export default function Page() {
   return (
-    <Layout home>
+    <>
       <Head>
-        <title>{siteTitle}</title>
+        <title>Utopian Lemurs</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>
-          Hello, I'm <b>Juan</b>. I'm a software engineer student, currently
-          working as a <b>blockchain developer</b>. You can contact me on{" "}
-          <a href="https://twitter.com/0xJu4ncito">my Twitter</a>.
-        </p>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-            <Link href={`/roadmap`}>
-              <a>{title}</a>
-            </Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </li>
-          ))}
-        </ul>
-      </section>
-    </Layout>
+      <header>
+        <Navbar />
+      </header>
+      <main className='overflow-hidden'>
+        <div className='hidden sm:block mt-20' />
+        <HeroHome />
+        <Feature />
+        <NFT />
+        <AgroHome />
+        {/* <AgroDescription /> */}
+        <BusinessHome />
+        {/* <BusinessDescription /> */}
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   );
 }
