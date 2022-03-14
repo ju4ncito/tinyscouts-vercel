@@ -1,59 +1,78 @@
-import { Fade } from 'react-awesome-reveal';
+import { Fade } from "react-awesome-reveal";
 
 export default function Component() {
   return (
-    <section class="relative py-20 2xl:py-40 bg-gray-800 overflow-hidden">
-  <img class="hidden lg:block absolute inset-x-0 bottom-0 mb-96" src="zospace-assets/lines/line-two-montain.svg" alt=""/>
-  <div class="relative container px-4 mx-auto">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="mb-24 text-center text-5xl font-bold font-heading text-white">Our Team</h2>
-      <div class="flex flex-wrap justify-center -mx-10 mb-20">
-        <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
-          <div>
-            <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top" src="https://images.pexels.com/photos/5325840/pexels-photo-5325840.jpeg?q=80&amp;fm=jpg&amp;crop=faces&amp;cs=tinysrgb&amp;fit=crop&amp;h=940&amp;w=940" alt=""/>
-            <a class="inline-block w-full p-10 bg-gray-500 hover:bg-gray-600 rounded-lg transition duration-200" href="#">
-              <h3 class="mb-2 text-2xl text-white font-bold font-heading">L&eacute;a Herrera</h3>
-              <p class="mb-4 text-lg text-white font-bold">UX Designer</p>
-              <div class="flex justify-end">
-                <svg width="27" height="15" viewbox="0 0 27 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M26.2042 7.78599L19.5171 14.4731L18.6812 13.6372L24.3611 7.95734L0.709572 7.96153L0.709572 6.78292L24.3611 6.77874L19.0992 1.51681L19.9351 0.680916L26.2042 6.9501C26.4351 7.18093 26.4351 7.55515 26.2042 7.78599Z" fill="white"></path>
-                </svg>
+    <section>
+      <div class="py-4 bg-gray-800 text-white grid place-items-center ">
+        <div className="md:w-3/5 lg:w-2/5 pt-16 place-content-center">
+          <div className="rounded-lg shadow-xl bg-white overflow-hidden">
+            <div className="border-b-2">
+              <div className="grid dark:border-gray-700 p-5">
+                <h1 className="font-bold tracking-tight text-5xl sm:text-7xl leading-none sm:leading-none text-gray-700 flex items-center">
+                  <span>
+                    <span className="dark:text-white">
+                      Meet{" "}
+                      <span className="text-blue-900"> our team!</span>
+                      <span className="text-gray-900"></span>
+                    </span>
+                    <span className="dark:text-white"></span>
+                  </span>
+                </h1>
               </div>
-            </a>
+            </div>
+          </div>
+          <div className="rounded-lg shadow-xl bg-white mt-20 sm:mt-8 overflow-hidden">
+            <div className=""></div>
           </div>
         </div>
-        <div class="w-full lg:w-1/3 px-10 mb-20 lg:mb-0">
-          <div class="">
-            <img class="mb-8 w-full h-112 lg:h-80 object-cover object-top" src="https://images.pexels.com/photos/5325885/pexels-photo-5325885.jpeg?q=80&amp;fm=jpg&amp;crop=faces&amp;cs=tinysrgb&amp;fit=crop&amp;h=940&amp;w=940" alt=""/>
-            <a class="inline-block w-full p-10 bg-gray-500 hover:bg-gray-600 rounded-lg transition duration-200" href="#">
-              <h3 class="mb-2 text-2xl text-white font-bold font-heading">Maxi Svennson</h3>
-              <p class="mb-4 text-lg text-white font-bold">Social Media Manager</p>
-              <div class="flex justify-end">
-                <svg width="27" height="15" viewbox="0 0 27 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M26.2042 7.78599L19.5171 14.4731L18.6812 13.6372L24.3611 7.95734L0.709572 7.96153L0.709572 6.78292L24.3611 6.77874L19.0992 1.51681L19.9351 0.680916L26.2042 6.9501C26.4351 7.18093 26.4351 7.55515 26.2042 7.78599Z" fill="white"></path>
-                </svg>
-              </div>
-            </a>
+
+        <div class="flex flex-wrap text-center md:text-center px-8 md:px-4 lg:px-8">
+          
+        <div class="my-4 px-9 w-1/2 md:w-1/5 lg:w-1/5" />
+          <div class="my-4 px-9 w-1/2 md:w-1/5 lg:w-1/5">
+            <div>
+              <img
+                class="border-4 border-blue-900 rounded-full transition duration-500 hover:border-white mx-auto md:mx-0 w-24 md:w-auto"
+                src="https://pbs.twimg.com/profile_images/1502432648060305415/p-9PrVdB_400x400.jpg"
+                alt="user-avatar"
+              />
+              <p class="text-lg mt-4 md:mt-8">
+                <b>lozada.eth</b>
+              </p>
+              <p class="text-gray-100">Leader</p>
+            </div>
           </div>
-        </div>
-        <div class="w-full lg:w-1/3 px-10">
-          <div>
-            <img class="mb-8  lg:h-40 object-cover object-top" src="https://images.unsplash.com/photo-1615803795804-06a0c2a0030e?q=80&amp;fm=jpg&amp;crop=faces&amp;cs=tinysrgb&amp;fit=crop&amp;h=940&amp;w=940" alt="" />
-            <a class="inline-block w-full p-10 bg-gray-500 hover:bg-gray-600 rounded-lg transition duration-200" href="#">
-              <h3 class="mb-2 text-2xl text-white font-bold font-heading">Oliver Haller</h3>
-              <p class="mb-4 text-lg text-white font-bold">Co-Founder</p>
-              <div class="flex justify-end">
-                <svg width="27" height="15" viewbox="0 0 27 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M26.2042 7.78599L19.5171 14.4731L18.6812 13.6372L24.3611 7.95734L0.709572 7.96153L0.709572 6.78292L24.3611 6.77874L19.0992 1.51681L19.9351 0.680916L26.2042 6.9501C26.4351 7.18093 26.4351 7.55515 26.2042 7.78599Z" fill="white"></path>
-                </svg>
-              </div>
-            </a>
+
+
+          <div class="my-4 px-9 w-1/2 md:w-1/5 lg:w-1/5">
+            <div>
+              <img
+                class="border-4 border-blue-900 rounded-full transition duration-500 hover:border-white mx-auto md:mx-0 w-24 md:w-auto"
+                src="https://pbs.twimg.com/profile_images/1487818339636461569/uXLgCaGh_400x400.jpg"
+                alt="user-avatar"
+              />
+              <p class="text-lg mt-4 md:mt-8">
+                <b>0xju4ncito</b>
+              </p>
+              <p class="text-gray-100">Community Manager</p>
+            </div>
+          </div>
+
+          <div class="my-4 px-9 w-1/2 md:w-1/5 lg:w-1/5">
+            <div>
+              <img
+                class="border-4 border-blue-900 rounded-full transition duration-500 hover:border-white mx-auto md:mx-0 w-24 md:w-auto"
+                src="https://pbs.twimg.com/profile_images/1487818339636461569/uXLgCaGh_400x400.jpg"
+                alt="user-avatar"
+              />
+              <p class="text-lg mt-4 md:mt-8">
+                <b>JMZ</b>
+              </p>
+              <p class="text-gray-100">Artist</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="text-center"><a class="inline-block py-4 px-12 border border-gray-200 hover:border-gray-50 rounded-full font-bold text-white" href="#">More</a></div>
-    </div>
-  </div>
-</section>
+    </section>
   );
 }
