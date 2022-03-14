@@ -1,14 +1,10 @@
 import Head from 'next/head';
 
-import Navbar from '../components/es/navigation/Navbar';
 import Footer from '../components/es/navigation/Footer';
 
-import HeroHome from '../components/es/HeroHome';
+import Home from '../components/es/Home';
 import NFT from '../components/es/NFT';
-import Feature from '../components/es/Feature';
-
-import AgroHome from '../components/es/AgroHome';
-import BusinessHome from '../components/es/BusinessHome';
+import Roadmap from '../components/es/Roadmap';
 
 export default function Page() {
   return (
@@ -16,17 +12,11 @@ export default function Page() {
       <Head>
         <title>Utopian Lemurs</title>
       </Head>
-      <header>
-        <Navbar />
-      </header>
       <main className='overflow-hidden'>
-        <div className='hidden sm:block mt-20' />
-        <HeroHome />
-        <Feature />
-        <NFT />
-        <AgroHome />
-        {/* <AgroDescription /> */}
-        <BusinessHome />
+        <div className='' />
+        <Home />
+        <Roadmap />
+        <NFT/>
         {/* <BusinessDescription /> */}
       </main>
       <footer>

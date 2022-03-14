@@ -2,8 +2,14 @@ import { Fade } from 'react-awesome-reveal';
 
 export default function Component() {
   return (
-    <div className='relative'>
-      <div className='bg-gray-50 relative shadow-md sm:overflow-hidden'>
+    <div className="relative h-screen pt-16" style={{
+      backgroundImage:
+        "url(" + "https://wallpaperaccess.com/full/1347872.jpg" + ")",
+      backgroundPosition: "center",
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+    }}>
+      <div className='relative sm:overflow-hidden'>
         <Fade>
           <div className='relative pt-4 pb-16 max-w-7xl mx-auto md:flex md:items-center md:justify-between sm:px-4'>
             <div className='md:w-2/6'>
@@ -11,7 +17,7 @@ export default function Component() {
                 className='hidden sm:block mx-auto sm:mt-0 sm:pl-20'
                 width={800}
                 height={850}
-                src='/images/business-card.svg'
+                src='/images/lemur1.png'
                 alt=''
               />
               <img
