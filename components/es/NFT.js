@@ -1,31 +1,78 @@
-import { Fade } from 'react-awesome-reveal';
+import { Fade } from "react-awesome-reveal";
 
 export default function Component() {
   return (
-    <div className='relative pb-20'>
-      <Fade>
-        <div className='relative max-w-7xl mx-auto px-4'>
-          <div className='bg-gradient-to-r from-purple-200 to-orange-700 rounded-lg shadow-xl lg:grid lg:grid-cols-2 lg:gap-4 items-center'>
-            <div className='pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20'>
-              <div className='lg:self-center'>
-                <h2 className='text-3xl font-extrabold text-white sm:text-4xl'>
-                  <span className='block leading-none'>Un NFT gratis</span>
-                  <span className='block text-white leading-none'>
-                    a los primeros 10,000
+    <section>
+      <div class="py-4 bg-gray-800 text-white grid place-items-center ">
+        <div className="md:w-3/5 lg:w-2/5 pt-16 place-content-center">
+          <div className="rounded-lg shadow-xl bg-white overflow-hidden">
+            <div className="border-b-2">
+              <div className="grid dark:border-gray-700 p-5">
+                <h1 className="font-bold tracking-tight text-5xl sm:text-7xl leading-none sm:leading-none text-gray-700 flex items-center">
+                  <span>
+                    <span className="dark:text-white">
+                      Meet{" "}
+                      <span className="text-blue-900"> our team!</span>
+                      <span className="text-gray-900"></span>
+                    </span>
+                    <span className="dark:text-white"></span>
                   </span>
-                </h2>
-                <p className='mt-4 text-lg leading-tight text-white'>
-                  Un NFT gratuito a los primeros 10k usuarios, no te pierdas la
-                  ola y ganale a la inflación.
-                </p>
+                </h1>
               </div>
             </div>
-            <div className=''>
-              <img className='rounded-md' src='/images/nft.jpg' />
+          </div>
+          <div className="rounded-lg shadow-xl bg-white mt-20 sm:mt-8 overflow-hidden">
+            <div className=""></div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap text-center md:text-center px-8 md:px-4 lg:px-8">
+          
+        <div class="my-4 px-9 w-1/2 md:w-1/5 lg:w-1/5" />
+          <div class="my-4 px-9 w-1/2 md:w-1/5 lg:w-1/5">
+            <div>
+              <img
+                class="border-4 border-blue-900 rounded-full transition duration-500 hover:border-white mx-auto md:mx-0 w-24 md:w-auto"
+                src="https://pbs.twimg.com/profile_images/1502432648060305415/p-9PrVdB_400x400.jpg"
+                alt="user-avatar"
+              />
+              <p class="text-lg mt-4 md:mt-8">
+                <b>lozada.eth</b>
+              </p>
+              <p class="text-gray-100">Leader</p>
+            </div>
+          </div>
+
+
+          <div class="my-4 px-9 w-1/2 md:w-1/5 lg:w-1/5">
+            <div>
+              <img
+                class="border-4 border-blue-900 rounded-full transition duration-500 hover:border-white mx-auto md:mx-0 w-24 md:w-auto"
+                src="https://pbs.twimg.com/profile_images/1487818339636461569/uXLgCaGh_400x400.jpg"
+                alt="user-avatar"
+              />
+              <p class="text-lg mt-4 md:mt-8">
+                <b>0xju4ncito</b>
+              </p>
+              <p class="text-gray-100">Community Manager</p>
+            </div>
+          </div>
+
+          <div class="my-4 px-9 w-1/2 md:w-1/5 lg:w-1/5">
+            <div>
+              <img
+                class="border-4 border-blue-900 rounded-full transition duration-500 hover:border-white mx-auto md:mx-0 w-24 md:w-auto"
+                src="https://pbs.twimg.com/profile_images/1487818339636461569/uXLgCaGh_400x400.jpg"
+                alt="user-avatar"
+              />
+              <p class="text-lg mt-4 md:mt-8">
+                <b>JMZ</b>
+              </p>
+              <p class="text-gray-100">Artist</p>
             </div>
           </div>
         </div>
-      </Fade>
-    </div>
+      </div>
+    </section>
   );
 }
