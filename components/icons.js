@@ -17,7 +17,7 @@ export const iconEmail = (props) => (
 );
 
 // Cart
-export const iconShoppingCart = (props) => (
+export const iconCart = (props) => (
   <svg
     fill='none'
     stroke='currentColor'
@@ -27,85 +27,7 @@ export const iconShoppingCart = (props) => (
     viewBox='0 0 24 24'
     {...props}
   >
-    <path
-      className='a'
-      d='M7,7H17M7,7V5A2,2,0,0,1,9,3h6a2,2,0,0,1,2,2V7M5,11V9A2,2,0,0,1,7,7m12,4V9a2,2,0,0,0-2-2m2,4a2,2,0,0,1,2,2v6a2,2,0,0,1-2,2H5a2,2,0,0,1-2-2V13a2,2,0,0,1,2-2m14,0H5'
-    />
-  </svg>
-);
-
-// BadgeCheck
-export const iconBadgeCheck = (props) => (
-  <svg
-    fill='none'
-    stroke='currentColor'
-    strokeLinecap='round'
-    strokeLinejoin='round'
-    strokeWidth='1.5px'
-    viewBox='0 0 24 24'
-    {...props}
-  >
-    <path d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z' />
-  </svg>
-);
-
-// Cash
-export const iconCash = (props) => (
-  <svg
-    fill='none'
-    stroke='currentColor'
-    strokeLinecap='round'
-    strokeLinejoin='round'
-    strokeWidth='1.5px'
-    viewBox='0 0 24 24'
-    {...props}
-  >
-    <path d='M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z' />
-  </svg>
-);
-
-// Lock
-export const iconLock = (props) => (
-  <svg
-    fill='none'
-    stroke='currentColor'
-    strokeLinecap='round'
-    strokeLinejoin='round'
-    strokeWidth='1.5px'
-    viewBox='0 0 24 24'
-    {...props}
-  >
-    <path d='M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z' />
-  </svg>
-);
-
-// Tag
-export const iconTag = (props) => (
-  <svg
-    fill='none'
-    stroke='currentColor'
-    strokeLinecap='round'
-    strokeLinejoin='round'
-    strokeWidth='1.5px'
-    viewBox='0 0 24 24'
-    {...props}
-  >
-    <path d='M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z' />
-  </svg>
-);
-
-// User
-export const iconUser = (props) => (
-  <svg
-    fill='none'
-    stroke='currentColor'
-    strokeLinecap='round'
-    strokeLinejoin='round'
-    strokeWidth='1.5px'
-    viewBox='0 0 24 24'
-    {...props}
-  >
-    <path d='M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z' />
+    <path d='M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z' />
   </svg>
 );
 
@@ -124,8 +46,8 @@ export const iconUserGroup = (props) => (
   </svg>
 );
 
-// Strategy
-export const iconBox = (props) => (
+// Piston
+export const iconPiston = (props) => (
   <svg
     fill='none'
     stroke='currentColor'
@@ -135,22 +57,14 @@ export const iconBox = (props) => (
     viewBox='0 0 24 24'
     {...props}
   >
-    <path d='M4,7V17l8,4m0-10V21m0-10L4,7M20,7V17l-8,4M20,7l-8,4m8-4L12,3,4,7' />
-  </svg>
-);
-
-// Strategy
-export const iconStrategy = (props) => (
-  <svg
-    fill='none'
-    stroke='currentColor'
-    strokeLinecap='round'
-    strokeLinejoin='round'
-    strokeWidth='1.5px'
-    viewBox='0 0 24 24'
-    {...props}
-  >
-    <path d='M8.5,2.4L3,7.8 M8.5,7.8L3,2.4 M20.9,5.5L18,2.4l-3.2,2.8 M17.2,13.8c-2,0-3.7,1.7-3.7,3.7s1.7,3.7,3.7,3.7s3.7-1.7,3.7-3.7S19.3,13.8,17.2,13.8z M17.9,2.7c0.7,4.5-2.5,8.6-6.9,9.3c-4.4,0.7-7.6,4.9-6.9,9.3' />
+    <path d='M11.54,14.22l.74.74.09,1.48,1.69,1.69,3-3-.85-.84,1.55-1.55.84.85,2.09-2.09a1.48,1.48,0,0,0-.13-2L17.48,6.48' />
+    <line x1='9.54' y1='12.21' x2='12.07' y2='14.74' />
+    <path d='M17.51,6.5,14.45,3.44a1.49,1.49,0,0,0-2-.12L10.38,5.41l.84.84L9.68,7.8,8.84,7l-3,3,1.68,1.69L9,11.71l.74.74' />
+    <line x1='9.25' y1='11.92' x2='11.78' y2='14.45' />
+    <circle cx='5.42' cy='18.59' r='2.42' />
+    <path d='M8.35,18.11l3.54-3.54' />
+    <path d='M9.42,12.1,5.88,15.63' />
+    <line x1='10.94' y1='7.4' x2='16.74' y2='13.21' />
   </svg>
 );
 
@@ -304,21 +218,6 @@ export const iconHome = (props) => (
   </svg>
 );
 
-// Infinity
-export const iconInfinity = (props) => (
-  <svg
-    fill='none'
-    stroke='currentColor'
-    strokeLinecap='round'
-    strokeLinejoin='round'
-    strokeWidth='1.5px'
-    viewBox='0 0 24 24'
-    {...props}
-  >
-    <path d='M12,12c0,2.6-2.1,4.7-4.7,4.7S2.7,14.6,2.7,12s2.1-4.7,4.7-4.7S12,9.4,12,12z M16.7,7.3C14.1,7.3,12,9.4,12,12s2.1,4.7,4.7,4.7s4.7-2.1,4.7-4.7S19.2,7.3,16.7,7.3z' />
-  </svg>
-);
-
 // Phone
 export const iconPhone = (props) => (
   <svg
@@ -331,36 +230,6 @@ export const iconPhone = (props) => (
     {...props}
   >
     <path d='M3,5A2,2,0,0,1,5,3H8.28a1,1,0,0,1,.948.684l1.5,4.493a1,1,0,0,1-.5,1.21l-2.257,1.13a11.036,11.036,0,0,0,5.516,5.516l1.13-2.257a1,1,0,0,1,1.21-.5l4.493,1.5a1,1,0,0,1,.684.949V19a2,2,0,0,1-2,2H18A15,15,0,0,1,3,6Z' />
-  </svg>
-);
-
-// Joystick
-export const iconJoystick = (props) => (
-  <svg
-    fill='none'
-    stroke='currentColor'
-    strokeLinecap='round'
-    strokeLinejoin='round'
-    strokeWidth='1.5px'
-    viewBox='0 0 24 24'
-    {...props}
-  >
-    <path d='M19.5,20.7H4.5v-3.4h14.9V20.7z M16.6,14.6H7.4v2.7h9.2V14.6z M11.8,3.3c-1.7,0-3.1,1.4-3.1,3.1s1.4,3.1,3.1,3.1s3.1-1.4,3.1-3.1S13.5,3.3,11.8,3.3z M13.3,9.7h-3v4.9h3V9.7z' />
-  </svg>
-);
-
-// Dollar
-export const iconDollar = (props) => (
-  <svg
-    fill='none'
-    stroke='currentColor'
-    strokeLinecap='round'
-    strokeLinejoin='round'
-    strokeWidth='1.5px'
-    viewBox='0 0 24 24'
-    {...props}
-  >
-    <path d='M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
   </svg>
 );
 
@@ -394,21 +263,6 @@ export const iconChat = (props) => (
   </svg>
 );
 
-// Server
-export const iconServer = (props) => (
-  <svg
-    fill='none'
-    stroke='currentColor'
-    strokeLinecap='round'
-    strokeLinejoin='round'
-    strokeWidth='1.5px'
-    viewBox='0 0 24 24'
-    {...props}
-  >
-    <path d='M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01' />
-  </svg>
-);
-
 // Search
 export const iconSearch = (props) => (
   <svg
@@ -437,36 +291,6 @@ export const iconLightBulb = (props) => (
   >
     <line x1='14.874' y1='21.858' x2='9.126' y2='21.858' />
     <path d='M18.72,8.862a6.721,6.721,0,1,0-10,5.859.764.764,0,0,1,.4.663v1.978a.62.62,0,0,0,.621.62h4.506a.62.62,0,0,0,.621-.62V15.381a.757.757,0,0,1,.4-.658A6.71,6.71,0,0,0,18.72,8.862Z' />
-  </svg>
-);
-
-// LightningBolt
-export const iconLightningBolt = (props) => (
-  <svg
-    fill='none'
-    stroke='currentColor'
-    strokeLinecap='round'
-    strokeLinejoin='round'
-    strokeWidth='1.5px'
-    viewBox='0 0 24 24'
-    {...props}
-  >
-    <path d='M13 10V3L4 14h7v7l9-11h-7z' />
-  </svg>
-);
-
-// TextDocument
-export const iconTextDocument = (props) => (
-  <svg
-    fill='none'
-    stroke='currentColor'
-    strokeLinecap='round'
-    strokeLinejoin='round'
-    strokeWidth='1.5px'
-    viewBox='0 0 24 24'
-    {...props}
-  >
-    <path d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z' />
   </svg>
 );
 

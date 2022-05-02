@@ -1,0 +1,31 @@
+Cómo ayuda la tecnología blockchain a los conductores
+
+    ¿Qué aplicaciones tiene la tecnología blockchain en el sector del automóvil y cómo puede mejorar la vida cotidiana de los conductores? Explicamos cómo funciona blockchain y mostramos sus posibles usos en la movilidad del futuro.
+
+    ¿Qué es la tecnología Blockchain? Al hablar de ella, la mayoría de la gente piensa en los bitcoins. La criptomoneda es el ejemplo más conocido del uso de esta tecnología. Pero el blockchain también ofrece respuestas a una variedad de cuestiones que afrontaremos en el futuro y puede mejorar también la vida de los conductores, por ejemplo, al comprar un coche usado.
+
+    «La tecnología blockchain en sí no es ninguna panacea», afirma el doctor Andre Luckow, Head of Distributed Ledger and Emerging Technologies del BMW Group. «Pero nos ofrece los fundamentos técnicos que necesitamos para crear soluciones útiles y eficaces».
+
+    El Dr. Luckow dirige al equipo de IT del BMW Group, que desarrolla casos prácticos de usos potenciales de la tecnología blockchain junto con los especialistas correspondientes. Este potencial podrá dar forma a la movilidad del futuro. En este artículo presentamos tres de esas posibles transformaciones.
+
+    El blockchain nos ofrece los fundamentos técnicos para crear soluciones útiles y eficaces.
+
+
+    Los blockchains o cadenas de bloques son una nueva forma de base de datos. En ellos se almacenan transacciones (por ejemplo, transferencias, entregas o compras) en bloque. Las ventajas que ofrece esta tecnología se derivan sobre todo de dos principios:
+
+        Un blockchain funciona de forma descentralizada. Todos los participantes deciden primero qué información irá en el blockchain, es decir, pactan las reglas de su cooperación. Después, almacenan sus transacciones con las mismas condiciones y se controlan mutuamente. No existe un servidor central que pueda fallar o manipularse. Cualquiera que quiera cambiar los datos a posteriori debería ponerse de acuerdo con más de la mitad de los participantes.
+
+        Todos los bloques contienen una huella digital, el llamado «hash». Y todos los bloques contienen el hash del bloque anterior, por lo que el contenido queda codificado. Así, todos los bloques están conectados en serie (o en «chain», «cadena»). Si alguien alterara un bloque de datos, la manipulación llamaría inmediatamente la atención, puesto que el contenido ya no coincidiría con la huella.
+    
+
+    UN PASAPORTE DIGITAL DEL VEHÍCULO GRACIAS A LA TECNOLOGÍA BLOCKCHAIN
+        
+        Tarde o temprano, en el momento de revender un coche surgen preguntas del tipo: «¿Cuántos kilómetros tiene? ¿Ha sufrido algún un incidente? ¿Su anterior dueño pasaba con regularidad las inspecciones técnicas?» Hasta ahora, los compradores no podían estar completamente seguros de las respuestas. 
+
+        Las soluciones basadas en blockchain, como VerifyCar, son un remedio para este problema. Con esta aplicación, cuya versión piloto ya está en marcha, los usuarios pueden rastrear el historial completo de un vehículo, comprobarlo y compartir sus datos (por ejemplo, los de kilometraje) con terceros. Esta comprobación podría incluso realizarse durante la negociación de compra: «Si me interesa un coche, puedo escanear con mi móvil el código QR que tenga el vendedor en su aplicación», explica el Dr. Luckow. «Si aparece una marca verde, es que los datos del vehículo de segunda mano son verosímiles y están verificados».
+
+        La tecnología blockchain: más segura que el sello de un taller
+
+            Este método de la cadena de bloques es mucho más seguro que la certificación tradicional del kilometraje de un vehículo. «Se puede falsificar un sello fácilmente con una impresora a color», explica el Dr. Luckow. «Sin embargo, los registros de blockchain no se pueden alterar ni con la tecnología más avanzada». En la aplicación VerifyCar se podrían almacenar incluso accidentes o datos, como el número de propietarios anteriores, sin el riesgo de que se puedan falsificar.
+
+            El blockchain no solo facilita la transferencia de datos entre particulares. Por ejemplo, los propietarios del vehículo también podrían contratar seguros para su coche basándose en la base de datos verificada sobre el kilometraje para obtener descuentos por poco uso. Por el momento, esto solo se puede hacer accediendo a bases de datos aisladas. La descentralización de los datos en el blockchain podría facilitar significativamente este intercambio de información sin comprometer su seguridad.
